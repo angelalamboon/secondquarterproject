@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+   <head>
+		<title>Angela's Journal</title>
+		<link rel="stylesheet" href="home.css">
+		<meta charset="utf-8" >
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="shortcut icon" href="../images/favicon.png" type="image/png" />
+	</head>
+	
+	<body>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="posts.html">Posts</a></li>
+		<li><a href="page2.html">Page 2</a></li>
+		<li><a href="page3.html">Page 3</a></li>
+		<li><a href="search.html">Search</a></li>	
+	</ul>
+	
+	<div id="icon">
+		<img src="../images/icon.png" alt="logo" style="width:227px; height:227px";>
+	</div>
+	
+	<div style="height:950px;">
+		<h1 id="title"><w>welcome to</w> Angela's Journal</h1>
+	</div>
+	
+	<hr style="position: absolute; top: 38%; left: 20%; width: 78%; background-color: #323333;">
+	
+	<div id="journalgoals">
+		<img src="../images/journalgoals.png" alt="journal goals" style="width:250px; height:250px";>
+	</div>
+	
+	<div id="journal">
+		<img src="../images/journal.jpg" alt="first journal" style="width:250px; height:250px";>   <!-- image from https://www.pinterest.ph/pin/673851162991484810/-->
+	</div>
+	
+	<div id="websitegoals">
+		<img src="../images/websitegoals.png" alt="website goals" style="width:250px; height:250px";>
+	</div>
+	
+	<div id="text">
+		<p>Welcome to my blog! This blog will be about my journal, and it aims to record my progress as a beginner. 
+		I'm also striving to expand my creativity as I grow. Journaling was one of the things that I always wanted to try. 
+		I am very disorganized, and I have trouble managing time. I would forget many things, like deadlines for my school 
+		works or the time for a schedule or meeting. I also love to talk about my day, idols, and interests, and seeing 
+		people doing spreads for these things inspired me to try journaling. So here it is! I decided to start my first 
+		journal. I hope you have a good time visiting my website! Enjoy!</p>
+		<p style="text-align: right; padding-right: 20px;"><b>- ANGELA</b></p>
+	</div>
+	
+	<a href="posts.html" id="button">Recent Posts</a>
+	
+	<div id="footer"></div>
+	
+	<div id="connect">C O N N E C T</div>
+	<a href="https://www.facebook.com/" id="fbbutton">Facebook</a>
+	<a href="https://twitter.com/" id="twtbutton">Twitter</a>
+	<a href="https://www.instagram.com/" id="instabutton">Instagram</a>
+	<a href="https://www.pinterest.com/" id="pinterestbutton">Pinterest</a>
+	</body>
+</html>
