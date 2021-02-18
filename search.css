@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 227px;
+	background-color: black;
+	position: fixed;
+	top: 227px;
+	height: 100%;
+	overflow: auto;
+	font-size: 110%;
+	text-align: center;
+}
+
+li a {
+	display: block;
+	color: white;
+	padding: 10px 10px;
+	text-decoration: none;
+}	
+
+li a:link {
+	color: white;
+	padding: 10px 10px;
+}	
+
+li a:visited {
+	color: grey;
+}
+
+li a:hover {
+	background-color: #323333;
+	color: white;
+	font-weight: 500;
+	font-size: 110%;
+}
+
+li a:active {
+	background-color: #B4B3B3;
+	color: black;
+}
+
+#icon {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+}
+
+#title {
+	position: absolute;
+	top: 9%;
+	left: 48%;
+	padding: 15px;
+	text-align: center;
+	border-width: 4px;
+	border-style: double;
+	border-color: black;
+	width: 19%;
+	background-color: #323333;
+	color: #FFFEFD;
+}
+
+.button {
+	position: absolute;
+	top: 65%;
+	left: 52%;
+	border: none;
+	background-color: #323333;
+	color: #FFFEFD;
+	padding: 15px 35px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 120%;
+	font-weight: normal;
+	border-radius: 50px;
+	transition: all 0.2s ease-in-out;
+}
+
+.glow-button:hover {
+	box-shadow: 0 5px 15px #323333;
+}
+	
+.search {
+	width: 100%;
+	position: relative;
+	display: flex;
+}
+
+.searchTerm {
+	width: 100%;
+	border: 3px solid #323333;
+	border-right: none;
+	padding: 5px;
+	height: 30px;
+	border-radius: 5px 0 0 5px;
+	outline: none;
+	color: #9DBFAF;
+}	
+
+.searchTerm:focus{
+	color: #323333;
+}
+
+.searchButton {
+	width: 40px;
+	height: 46px;
+	border: 1px solid #323333;
+	background: #323333;
+	text-align: center;
+	color: #fff;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.wrap {
+	width: 35%;
+	position: absolute;
+	top: 45%;
+	left: 59%;
+	transform: translate(-50%, -50%);
+}	
+	
+footer {
+	padding: 100px;
+	color: #FFFEFD;
+	background-color: black;
+	opacity: 0.9;
+}
+
+#connect {
+	position: absolute;
+	top: 83%;
+	left: 80%;
+	padding: 15px;
+	font-size: 130%;
+	text-align: center;
+	color: #FFFEFD;
+	letter-spacing: 2px;
+}
+
+.flogo {
+	position: absolute;
+	top: 89%;
+	left: 20%;
+}

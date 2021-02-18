@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 18%;
+	background-color: black;
+	position: fixed;
+	top: 227px;
+	height: 100%;
+	overflow: auto;
+	font-size: 110%;
+	text-align: center;
+}
+
+li a {
+	display: block;
+	color: white;
+	padding: 10px 10px;
+	text-decoration: none;
+}	
+
+li a:link {
+	color: white;
+	padding: 10px 10px;
+}	
+
+li a:visited {
+	color: grey;
+}
+
+li a:hover {
+	background-color: #323333;
+	color: white;
+	font-weight: 500;
+	font-size: 110%;
+}
+
+li a:active {
+	background-color: #B4B3B3;
+	color: black;
+}
+
+#icon {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+}
+
+#title {
+	position: absolute;
+	top: 9%;
+	left: 48%;
+	padding: 15px;
+	text-align: center;
+	border-width: 4px;
+	border-style: double;
+	border-color: black;
+	width: 19%;
+	height: 6%;
+	background-color: #323333;
+	color: #FFFEFD;
+}
+
+.right {
+	z-index: 2;
+	width: 65%;
+    background: #FFFEFD;
+    border: double;
+	border-radius: 50px;
+	padding: 10px;
+    position: absolute;
+	top: 38%;
+	left: 25%;
+	transition: all 0.2s ease-in-out;
+}
+
+.right:hover {
+	box-shadow: 0 5px 15px #323333;
+	transform: translateY(-40px);
+	display: .hsprite;
+}
+
+.rightbg {
+	z-index: 1;
+	position: absolute;
+	top: 35%;
+	left: 22%;
+	border-radius: 50px;
+	width: 73%;
+	height: 270px;
+	background: lightgrey;
+	border: 1px;
+	box-shadow: 0 5px 15px #323333;
+}
+
+.left {
+	z-index: 2;
+	width: 65%;
+    background: #FFFEFD;
+    border: double;
+	border-radius: 50px;
+	padding: 10px;
+    position: absolute;
+	top: 90%;
+	left: 25%;
+	transition: all 0.2s ease-in-out;
+}
+
+.left:hover {
+	box-shadow: 0 5px 15px #323333;
+	transform: translateY(-40px);
+}
+
+.leftbg {
+	z-index: 1;
+	position: absolute;
+	top: 85%;
+	left: 22%;
+	border-radius: 50px;
+	width: 73%;
+	height: 300px;
+	background: lightgrey;
+	border: 1px;
+	box-shadow: 0 5px 15px #323333;
+}
+
+.button {
+	position: absolute;
+	top: 140%;
+	left: 53%;
+	border: none;
+	background-color: #323333;
+	color: #FFFEFD;
+	padding: 15px 35px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 120%;
+	font-weight: normal;
+	border-radius: 50px;
+	transition: all 0.2s ease-in-out;
+}
+
+.glow-button:hover {
+	box-shadow: 0 5px 15px #323333;
+}
+
+footer {
+	padding: 100px;
+	color: #FFFEFD;
+	background-color: black;
+	opacity: 0.9;
+}
+
+#connect {
+	position: absolute;
+	top: 160%;
+	left: 80%;
+	padding: 15px;
+	font-size: 130%;
+	text-align: center;
+	color: #FFFEFD;
+	letter-spacing: 10px;
+}
+
+.flogo {
+	position: absolute;
+	top: 164%;
+	left: 20%;
+}

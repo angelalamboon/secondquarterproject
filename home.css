@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+#page {
+	width: auto;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 227px;
+	background-color: black;
+	position: fixed;
+	top: 227px;
+	height: 100%;
+	font-size: 110%;
+	text-align: center;
+}
+
+li a {
+	display: block;
+	color: white;
+	padding: 10px 10px;
+	text-decoration: none;
+}	
+
+li a:link {
+	color: white;
+	padding: 10px 10px;
+}	
+
+li a:visited {
+	color: grey;
+}
+
+li a:hover {
+	background-color: #323333;
+	color: white;
+	font-weight: 500;
+	font-size: 110%;
+}
+
+li a:active {
+	background-color: #B4B3B3;
+	color: black;
+}
+
+#icon {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+}
+
+#title {
+	position: absolute;
+	top: 9%;
+	left: 47%;
+	padding: 15px;
+	margin: 10px;
+	text-align: center;
+	border: 4px double black;
+	width: 19%;
+	background-color: #323333;
+	color: #FFFEFD;
+}
+
+w {
+	font-size: 60%;
+	padding: 15px;
+}
+
+#journalgoals {
+	position: absolute;
+	top: 50%;
+	left: 23%;
+}
+#journal {
+	position: absolute;
+	top: 50%;
+	left: 49%;
+}
+
+#websitegoals {
+	position: absolute;
+	top: 50%;
+	left: 75%;
+}
+
+#text {
+	position: absolute;
+	top: 100%;
+	left: 20%;
+	padding: 1px 20px;
+	font-size: 110%;
+	text-align: justify;
+	border-width: 3px;
+	border-style: double;
+	border-color: #323333;
+	width: 75%;
+	background-color: #FFFEFD;
+}
+
+.button {
+	position: absolute;
+	top: 140%;
+	left: 52%;
+	border: none;
+	background-color: #323333;
+	color: #FFFEFD;
+	padding: 15px 35px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 120%;
+	font-weight: normal;
+	border-radius: 50px;
+	transition: all 0.2s ease-in-out;
+}
+
+.glow-button:hover {
+	box-shadow: 0 5px 15px #323333;
+}
+
+footer {
+	padding: 100px;
+	color: #FFFEFD;
+	background-color: black;
+	opacity: 0.9;
+}
+
+.flogo {
+	position: absolute;
+	top: 164%;
+	left: 20%;
+}
+
+.source {
+	position: absolute;
+	top: 160%;
+	left: 30%;
+	padding: 15px;
+	font-size: 130%;
+	text-align: center;
+	color: #FFFEFD;
+	letter-spacing: 10px;
+}
+
+.src {
+	position: absolute;
+	top: 170%;
+	left: 33%;
+	color: #FFFEFD;
+}
+
+#connect {
+	position: absolute;
+	top: 160%;
+	left: 80%;
+	padding: 15px;
+	font-size: 130%;
+	text-align: center;
+	color: #FFFEFD;
+	letter-spacing: 10px;
+}

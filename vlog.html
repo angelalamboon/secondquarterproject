@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Angela's Journal</title>
+		<link rel="stylesheet" href="../css/vlog.css" media="only screen" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="shortcut icon" href="../images/fave.png" type="image/png"/>
+		<style>
+			.lsprite, .lsprite:hover, .dlsprite, .dlsprite:hover, .fbsprite a, .fbsprite a:hover, .twtsprite a, .twtsprite a:hover, .instasprite a, .instasprite a:hover {
+				width: 48px;
+				height: 48px;
+			}
+			
+			.lsprite {
+				z-index: 2;
+				display: block;
+				position: absolute;
+				left: 73%;
+				top: 100%;
+				background: url('../images/likee.png') no-repeat -3px -51px;
+			}
+
+			.lsprite:hover {
+				background: url('../images/likee.png') no-repeat -54px -51px;
+			}
+			
+			.dlsprite {
+				z-index: 2;
+				display: block;
+				position: absolute;
+				left: 80%;
+				top: 100%;
+				background: url('../images/likee.png') no-repeat -3px -0px;
+			}
+
+			.dlsprite:hover {
+				background: url('../images/likee.png') no-repeat -54px -0px;
+			}
+
+			.fbsprite a {
+				display: block;
+				position: absolute;
+				left: 80.5%;
+				top: 168%;
+				background: url('../images/sprites.png') no-repeat -5px -0px;
+			}
+	
+			.fbsprite a:hover {
+				background: url('../images/sprites.png') no-repeat -58px -0px;
+			}
+
+			.twtsprite a {
+				display: block;
+				position: absolute;
+				left: 85.5%;
+				top: 168%;
+				background: url('../images/sprites.png') no-repeat -5px -106px;
+			}
+	
+			.twtsprite a:hover {
+				background: url('../images/sprites.png') no-repeat -58px -106px;
+			}
+
+			.instasprite a {
+				display: block;
+				position: absolute;
+				left: 90.5%;
+				top: 168%;
+				background: url('../images/sprites.png') no-repeat -5px -53px;
+			}
+	
+			.instasprite a:hover {
+				background: url('../images/sprites.png') no-repeat -58px -53px;
+			}
+		</style>
+	</head>
+	
+	<body>
+	
+	<nav>
+		<ul>
+		<li><a href="../index.html">Home</a></li>
+		<li><a href="posts.html">Posts</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="vlog.html">Vlogs</a></li>
+		<li><a href="search.html">Search</a></li>	
+		</ul>
+	</nav>
+	
+	<div id="icon">
+		<img src="../images/icon.png" alt="logo" style="width: 227px; height: 227px";>
+	</div>
+	
+	<header>
+		<div style="height: 1000px;">
+			<h1 id="title">Vlogs</h1>
+		</div>
+	</header>
+	
+	<section>
+		<video width="640px" height="360px" controls autoplay>
+			<source src="../mmfiles/vlog1.mp4" type="video/mp4">
+		</video>
+		<div class="background"></div>
+		<h2 class="vtitle">First Journal Flip-Through</h2>
+		<div class="lsprite"></div>								<!--Image sprites generated with https://iconmonstr.com/, https://css.spritegen.com/ and http://www.spritecow.com/-->
+		<div class="dlsprite"></div>	
+	</section>	
+	
+	<article id="text">
+		<p><b>Important Note:</b> Youtube video by <a href="https://www.youtube.com/channel/UCnnffbFRCqvgYv7KyZ5x3FQ">@milkyjin</a>. The video is only used for the sake of the blog. Check sources in the footer for more details.</p>
+	</article>
+	
+	<a href="search.html" class="button glow-button">Search</a>
+	
+	<footer>
+		<img class="flogo" src="../images/fave.png" alt="logo" style="width:75px; height:75px";>
+		<p class="source">SOURCES</p>
+		<a class="src" href="https://www.youtube.com/watch?v=1Z9qPbEO0Sk" style="position: absolute; top: 170%; left: 33%;">Youtube Video</a>
+		<div id="connect">CONNECT</div>
+		<div class="fbsprite">										<!--Image sprites generated with https://iconmonstr.com/, https://css.spritegen.com/ and http://www.spritecow.com/-->
+			<a href="https://www.facebook.com/amandarachlee"></a>
+		</div>
+		<div class="twtsprite">
+			<a href="https://twitter.com/kpopjournaling"></a>
+		</div>
+		<div class="instasprite">
+			<a href="https://www.instagram.com/kiki.bujo/"></a>
+		</div>
+	</footer>
+	
+	</body>
+	
+</html>

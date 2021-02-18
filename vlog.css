@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 227px;
+	background-color: black;
+	position: fixed;
+	top: 227px;
+	height: 100%;
+	overflow: auto;
+	font-size: 110%;
+	text-align: center;
+}
+
+li a {
+	display: block;
+	color: white;
+	padding: 10px 10px;
+	text-decoration: none;
+}	
+
+li a:link {
+	color: white;
+	padding: 10px 10px;
+}	
+
+li a:visited {
+	color: grey;
+}
+
+li a:hover {
+	background-color: #323333;
+	color: white;
+	font-weight: 500;
+	font-size: 110%;
+}
+
+li a:active {
+	background-color: #B4B3B3;
+	color: black;
+}
+
+#icon {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+}
+
+#title {
+	position: absolute;
+	top: 9%;
+	left: 48%;
+	padding: 15px;
+	text-align: center;
+	border-width: 4px;
+	border-style: double;
+	border-color: black;
+	width: 19%;
+	height: 6%;
+	background-color: #323333;
+	color: #FFFEFD;
+}
+
+video {
+	z-index: 2;
+	position: absolute;
+	top: 35%;
+	left: 34%;
+	border-radius: 50px;
+}
+
+.background {
+	z-index: 1;
+	position: absolute;
+	top: 42%;
+	left: 32%;
+	border-radius: 50px;
+	width: 690px;
+	height: 450px;
+	background: #FFFEFC;
+	border: 1px;
+	box-shadow: 0 5px 15px #323333;
+}
+
+.vtitle {
+	z-index: 3;
+	position: absolute;
+	top: 90%;
+	left: 35%;
+	border: 1px #FFFEFC;
+	background-color: #FFFEFC;
+}
+
+#text {
+	position: absolute;
+	top: 120%;
+	left: 32%;
+	padding: 1px 20px;
+	font-size: 110%;
+	text-align: justify;
+	border-width: 3px;
+	border-style: double;
+	border-color: #323333;
+	width: 50%;
+	background-color: #FFFEFD;
+}
+
+.button {
+	position: absolute;
+	top: 140%;
+	left: 54%;
+	border: none;
+	background-color: #323333;
+	color: #FFFEFD;
+	padding: 15px 35px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 120%;
+	font-weight: normal;
+	border-radius: 50px;
+	transition: all 0.2s ease-in-out;
+}
+
+.glow-button:hover {
+	box-shadow: 0 5px 15px #323333;
+}	
+
+footer {
+    height: max-height;
+	padding: 100px;
+	color: #FFFEFD;
+	background-color: black;
+	opacity: 0.9;
+}
+
+#connect {
+	position: absolute;
+	top: 160%;
+	left: 80%;
+	padding: 15px;
+	font-size: 130%;
+	text-align: center;
+	color: #FFFEFD;
+	letter-spacing: 10px;
+}
+
+.flogo {
+	position: absolute;
+	top: 164%;
+	left: 20%;
+}
+
+.source {
+	position: absolute;
+	top: 160%;
+	left: 30%;
+	padding: 15px;
+	font-size: 130%;
+	text-align: center;
+	color: #FFFEFD;
+	letter-spacing: 10px;
+}
+
+.src {
+	color: #FFFEFD;
+}

@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+	font-family: 'Lato', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+#page {
+	width: auto;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 227px;
+	background-color: black;
+	position: fixed;
+	top: 227px;
+	height: 100%;
+	font-size: 110%;
+	text-align: center;
+}
+
+li a {
+	display: block;
+	color: white;
+	padding: 10px 10px;
+	text-decoration: none;
+}	
+
+li a:link {
+	color: white;
+	padding: 10px 10px;
+}	
+
+li a:visited {
+	color: grey;
+}
+
+li a:hover {
+	background-color: #323333;
+	color: white;
+	font-weight: 500;
+	font-size: 110%;
+}
+
+li a:active {
+	background-color: #B4B3B3;
+	color: black;
+}
+
+#icon {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+}
+
+#title {
+	position: absolute;
+	top: 9%;
+	left: 48%;
+	padding: 15px;
+	text-align: center;
+	border: 4px double black;
+	width: 19%;
+	height: 6%;
+	background-color: #323333;
+	color: #FFFEFD;
+}
+
+.j3 {
+	position: absolute;
+	top: 35%;
+	left: 23%;
+	transition: all 0.2s ease-in-out;
+}
+
+.glow-j3:hover {
+	opacity: 0.8;
+	box-shadow: 0 5px 15px #323333;
+	transform: scale(1.2);
+}
+
+.j4 {
+	position: absolute;
+	top: 35%;
+	left: 49%;
+	transition: all 0.2s ease-in-out;
+}
+
+.glow-j4:hover {
+	opacity: 0.8;
+	box-shadow: 0 5px 15px #323333;
+	transform: scale(1.2);
+}
+
+.j5 {
+	position: absolute;
+	top: 35%;
+	left: 75%;
+	transition: all 0.2s ease-in-out;
+}
+
+.glow-j5:hover {
+	opacity: 0.8;
+	box-shadow: 0 5px 15px #323333;
+	transform: scale(1.2);
+}
+
+.j6 {
+	position: absolute;
+	top: 85%;
+	left: 23%;
+	transition: all 0.2s ease-in-out;
+}
+
+.glow-j6:hover {
+	opacity: 0.8;
+	box-shadow: 0 5px 15px #323333;
+	transform: scale(1.2);
+}
+
+.j7 {
+	position: absolute;
+	top: 85%;
+	left: 49%;
+	transition: all 0.2s ease-in-out;
+}
+
+.glow-j7:hover {
+	opacity: 0.8;
+	box-shadow: 0 5px 15px #323333;
+	transform: scale(1.2);
+}
+
+.j8 {
+	position: absolute;
+	top: 85%;
+	left: 75%;
+	transition: all 0.2s ease-in-out;
+}
+
+.glow-j8:hover {
+	opacity: 0.8;
+	box-shadow: 0 5px 15px #323333;
+	transform: scale(1.2);
+}
+
+.j9 {
+	position: absolute;
+	top: 135%;
+	left: 23%;
+	transition: all 0.2s ease-in-out;
+}
+
+.glow-j9:hover {
+	opacity: 0.8;
+	box-shadow: 0 5px 15px #323333;
+	transform: scale(1.2);
+}
+
+.j10 {
+	position: absolute;
+	top: 135%;
+	left: 49%;
+	transition: all 0.2s ease-in-out;
+}
+
+.glow-j10:hover {
+	opacity: 0.8;
+	box-shadow: 0 5px 15px #323333;
+	transform: scale(1.2);
+}
+
+.j11 {
+	position: absolute;
+	top: 135%;
+	left: 75%;
+	transition: all 0.2s ease-in-out;
+}
+
+.glow-j11:hover {
+	opacity: 0.8;
+	box-shadow: 0 5px 15px #323333;
+	transform: scale(1.2);
+}
+
+#text {
+	position: absolute;
+	top: 182%;
+	left: 20%;
+	padding: 1px 20px;
+	font-size: 110%;
+	text-align: justify;
+	border-width: 3px;
+	border-style: double;
+	border-color: #323333;
+	width: 75%;
+	background-color: #FFFEFD;
+}
+
+.button {
+	position: absolute;
+	top: 203%;
+	left: 54%;
+	border: none;
+	background-color: #323333;
+	color: #FFFEFD;
+	padding: 15px 35px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 120%;
+	font-weight: normal;
+	border-radius: 50px;
+	transition: all 0.2s ease-in-out;
+}
+
+.glow-button:hover {
+	box-shadow: 0 5px 15px #323333;
+}
+
+footer {
+	padding: 15px;
+	height: 300px;
+	color: #FFFEFD;
+	background-color: black;
+	opacity: 0.9;
+}
+
+.flogo {
+	position: absolute;
+	top: 232%;
+	left: 20%;
+}
+
+.source {
+	position: absolute;
+	top: 230%;
+	left: 30%;
+	padding: 15px;
+	font-size: 130%;
+	text-align: center;
+	color: #FFFEFD;
+	letter-spacing: 10px;
+}
+
+.src {
+	color: #FFFEFD;
+}
+
+#connect {
+	position: absolute;
+	top: 240%;
+	left: 80%;
+	padding: 15px;
+	font-size: 130%;
+	text-align: center;
+	color: #FFFEFD;
+	letter-spacing: 10px;
+}
